@@ -1,162 +1,165 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--CSS  Files-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!---Main Container Start-->
-    <div class="main-container">
-        <!--Aside Start--->
-        <div class="aside">
-            <div class="logo">
-               <a href="#"><span>C</span>erastezz</a> 
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
-            </ul>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Jonlee James Navio</h1>
         </div>
-         <!--Aside End--->
-    <!--Main Content Start-->
-    <div class="main-content">
-       <!---Home Section Start--> 
-       <section class="home section hidden">
-        <div class="container">
-           <div class="row">
-            <div class="home-info padd-15">
-               <h3 class="hello">Hello, my name is <span class="name">Jonlee James Navio</span></h3>
-               <h3 class="my-profession">I' m a <span class="typing">BSIT Student</span></h3>
-                <p>I'm a 3rd year BS Information Technology Student of   Bicol University Polangui. I'm 21 years old and i'm from Mayao, Oas, Albay</p>
-                <a href="#contact" class="btn hire-me">More About Me</a>
-            </div>
-            <div class="home-img padd-15">
-                <img src="images/Sample.jpg" alt="">
-            </div>
-           </div> 
-        </div>
-       </section>
-       <!---Home Section End--> 
-       <!---About Section Start-->
-    <section class="about section">
-        <div class="container">
-            <div class="row">
-                <div class="section-title padd-15">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="about-content padd-15">
-                    <div class="row">
-                        <div class="about-text padd-15">
-                            <h3>I'm Jonlee James Navio and <span>Web Developer</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, soluta saepe? Aspernatur libero consectetur ex aliquid autem rerum sed veniam saepe, provident voluptatum! Id, similique dolor quas ratione minima, dolores officiis quaerat sed, quidem magni quisquam sunt ipsum odit eos. Ullam iure atque rem quibusdam tempora eos cumque ducimus minus delectus! Excepturi id adipisci voluptatem.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="personal-info padd-15">
-                            <div class="row">
-                                <div class="info-item padd-15">
-                                    <p>Birthday : <span>October 17 2002</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Age : <span>21 years old</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Website : <span>www.domain.com</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Email : <span>naviojonleejames@gmail.com</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Degree : <span>BS Information Technology</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Phone : <span>+639917226275</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Address : <span>Mayao, Oas, Albay</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Status : <span>nagcclos</span></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="buttons padd-15">
-                                    <a href="#" class="btn">Download CV</a>
-                                    <a href="#contact" class="btn hire-me">Hire Me</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skills padd-15">
-                            <div class="row">
-                                <div class="skill-item padd-15">
-                                    <h5>CSS</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 35%;"></div>
-                                        <div class="skill-percent">35%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>JS</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 5%;"></div>
-                                        <div class="skill-percent">5%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>PHP</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 43%;"></div>
-                                        <div class="skill-percent">43%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>HTML</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 49%;"></div>
-                                        <div class="skill-percent">49%</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="education padd-15">
-                            <h3 class="title">Education</h3>
-                            <div class="row">
-                                <div class="timeline-box padd-15">
-                                    <div class="timeline shadow-dark">
-                                        timeline
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="experience padd-15">
-                            <h3 class="title">Experience</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       </section>
-       <!---About Section End-->
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <p>Hi, I'm <h1>Jonlee</h1></p>
+        <p>A not so Pro</p><h1> Web developer</h1> 
+      </div>      
+      
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
     </div>
-    <!--Main Content End-->
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="image" />
+          <p>
+            I am 21 year old, BSIT student studied at Bicol University Polangui.
+            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+            things; the more, the better.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="progress-line"><span class="bootstrap"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C Programming</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!---Main Container End-->
-    
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="    ">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Work needed</h2>
+            <p>Update this shit</p>
+            <button><a href="  " target="blank">Galaw galaw <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="  " target="blank">Igus igus <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+        </div>
+
+        <div class="proj-2">
+          <img src="   ">
+          <div class="proj2-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <h2>Work needed</h2>
+            <p>Update this shit</p>
+            <button><a href="   " target="blank">Galaw galaw <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+            <button><a href="   " target="blank">Igusi igus <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> naviojonleejames@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.facebook.com/jj.fromph" target="blank"><i class="fab fa-facebook"> Facebook</i></a>
+        <a href="https://github.com/JonleeJamesNavio" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://www.instagram.com/j.onliwiw/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+  <!-- JAVASCRIPT -->
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 
 </html>
