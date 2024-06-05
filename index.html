@@ -1,165 +1,189 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Code</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Code</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header class="header">
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <div>
-          <h1 class="navbar-brand">Jonlee James Navio</h1>
-        </div>
-        <ul class="menu-items">
-          <li><a href="#about">About</a></li>
-          <li><a href="#my-works">Portfolio</a></li>
-          <li><a href="#contact-me">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="home-content" id="home-page">
-      <div class="name">
-        <p>Hi, I'm <h1>Jonlee</h1></p>
-        <p>A not so Pro</p><h1> Web developer</h1> 
-      </div>      
-      
-      <div class="angle-down-icon">
-        <a href="#about"><i class="fas fa-angle-down"></i></a>
-      </div>
-    </div>
-  </header>
-  <section class="about-me" id="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="left-content">
+  <body>
+    <header class="header" id="me">
+      <nav class="navbar">
+        <div class="navbar-container container">
           <div>
-            <h1 class="about-heading">About Me</h1>
+            <p class="navbar-brand">Jonlee James Navio</p>
           </div>
-          <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="image" />
-          <p>
-            I am 21 year old, BSIT student studied at Bicol University Polangui.
-            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
-            things; the more, the better.
-          </p>
-          <div class="work-arrow">
+          <ul class="menu-items">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#my-works">Portfolio</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="home-content" id="home-page">
+        <div class="name">
+          <h1>Hi, I'm Jonlee</h1>
+          <p>A 3rd Year BSIT Student.</p>
+        </div>
+        <div class="angle-down-icon">
+          <a href="#about"><i class="fas fa-angle-down"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-me" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="center-content">
+            <div>
+              <h1 class="about-heading">About Me</h1>
+            </div>
+            <img
+              src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png"
+              alt="image"
+            />
             <p>
-              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              I'm a 21 year old BSIT student at Bicol University Polangui who
+              thrives on learning through hands-on challenges. I enjoy creating
+              intuitive and engaging digital experiences, constantly pushing
+              myself to explore new areas and enhance my skills.
             </p>
           </div>
         </div>
-        <div class="skills">
-          <div class="right-content">
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="skills-content">
+          <div class="center-content">
             <div>
-              <h1 class="skills-heading">My Skills</h1>
+              <p class="skills-heading">My Skills</p>
             </div>
-            <div class="skills-bar">
-              <div class="bar">
-                <div class="info">
-                  <span>HTML</span>
-                </div>
-                <div class="progress-line"><span class="html"></span></div>
-                <div class="bar">
-                  <div class="info">
-                    <span>CSS</span>
-                  </div>
-                  <div class="progress-line"><span class="css"></span></div>
-                  <div class="bar">
-                    <div class="info">
-                      <span>BOOTSTRAP</span>
-                    </div>
-                    <div class="progress-line"><span class="bootstrap"></span></div>
-                    <div class="bar">
-                      <div class="info">
-                        <span>JAVASCRIPT</span>
-                      </div>
-                      <div class="progress-line"><span class="javascript"></span></div>
-                      <div class="bar">
-                        <div class="info">
-                          <span>C Programming</span>
-                        </div>
-                        <div class="progress-line"><span class="c"></span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="work-arrow-2">
+          </div>
+          <div class="skill-items">
+            <div class="item">
+              <div class="icon"><i class="bx bx-directions"></i></div>
+              <h4>UI/UX Design</h4>
               <p>
-                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+                An effective UI/UX is what captures attention and spreads clear
+                message. I make sure the design is innovative and neat with all
+                of this.
+              </p>
+            </div>
+            <div class="item">
+              <div class="icon"><i class="bx bx-bookmark-heart"></i></div>
+              <h4>Web Development</h4>
+              <p>
+                Crafting digital experiences that are not only functional but
+                also captivating, turning ideas into engaging websites.
+              </p>
+            </div>
+            <div class="item">
+              <div class="icon"><i class="bx bxl-figma"></i></div>
+              <h4>App Development</h4>
+              <p>
+                The synergy of creativity and functionality in app development
+                brings ideas to life through meticulous lines of code
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="my-works">
-    <div class="portfolio">
-      <div class="proj-heading">
-        <h1>Portfolio</h1>
-      </div>
-      <div class="portfolio-content container">
-        <div class="proj-1">
-          <img src="    ">
-          <div class="proj1-details">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
-            <h2>Work needed</h2>
-            <p>Update this shit</p>
-            <button><a href="  " target="blank">Galaw galaw <i
-                  class="fas fa-external-link-alt"></i></a>
-            </button>
-            <button><a href="  " target="blank">Igus igus <i
-                  class="fas fa-external-link-alt"></i></a>
-            </button>
+    </section>
+
+    <section id="my-works">
+      <div class="portfolio">
+        <div class="proj-heading">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="portfolio-content container">
+          <div class="proj-1">
+            <img src="img/BakeryWebsiteUI2.png" />
+            <div class="proj1-details">
+              <i class="fab fa-figma"></i>
+              <h2>Bakery Website UI</h2>
+              <p>Built using Figma</p>
+              <button>
+                <a
+                  href="https://www.figma.com/proto/xXshT5Ct3JwGunBcsejPLl/Mobile-Bakery-UI?page-id=0%3A1&node-id=1-2&viewport=2320%2C81%2C0.59&t=xqr0rnFwrbHK3wNw-1&scaling=scale-down&starting-point-node-id=1%3A2"
+                  target="blank"
+                  >Try it <i class="fas fa-external-link-alt"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+
+          <div class="proj-2">
+            <img src="img/MobileBakeryApp.jpg" />
+            <div class="proj2-details">
+              <i class="fab fa-android-studio"></i>
+              <h2>Mobile Bakery Application</h2>
+              <p>Built using Android Studio</p>
+              <button>
+                <a
+                  href="https://drive.google.com/file/d/16LyBVc8dkxCbD0evOJ6VyfuwFcvh5EZD/view?usp=sharing"
+                  target="blank"
+                  >View <i class="fas fa-external-link-alt"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+
+          <div class="proj-3">
+            <img src="img/ecomwebsite.png" />
+            <div class="proj3-details">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-Php"></i>
+              <i class="fab fa-Css"></i>
+              <i class="fab fa-js"></i>
+              <h2>E-commerece Website</h2>
+              <p>Built using Html, Php, Css, and Javasript</p>
+              <button>
+                <a href="img/ecomwebsite.png" target="blank"
+                  >View <i class="fas fa-external-link-alt"></i
+                ></a>
+              </button>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="proj-2">
-          <img src="   ">
-          <div class="proj2-details">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <h2>Work needed</h2>
-            <p>Update this shit</p>
-            <button><a href="   " target="blank">Galaw galaw <i
-                  class="fas fa-external-link-alt"></i></a>
-            </button>
-            <button><a href="   " target="blank">Igusi igus <i
-                  class="fas fa-external-link-alt"></i></a>
-            </button>
-          </div>
+    <div class="contact" id="contact-me">
+      <div class="container">
+        <div class="contact-content">
+          <h2>Contact Me</h2>
+          <p class="mail">
+            Get in touch with me
+            <i class="fas fa-arrow-right"></i> naviojonleejames@gmail.com
+          </p>
+          <p class="links">Or find me on:</p>
+          <a href="https://github.com/JonleeJamesNavio" target="blank"
+            ><i class="fab fa-github"></i> Github</a
+          >
+          <a href="https://www.facebook.com/jj.fromph" target="blank"
+            ><i class="fab fa-facebook"> Facebook</i></a
+          >
+          <a href="https://www.instagram.com/j.onliwiw/" target="blank"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
         </div>
       </div>
     </div>
-  </section>
-  <div class="contact" id="contact-me">
-    <div class="container">
-      <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p class="mail">
-          Get in touch with me <i class="fas fa-arrow-right"></i> naviojonleejames@gmail.com
-        </p>
-        <p class="links">Or find me on:</p>
-        <a href="https://www.facebook.com/jj.fromph" target="blank"><i class="fab fa-facebook"> Facebook</i></a>
-        <a href="https://github.com/JonleeJamesNavio" target="blank"><i class="fab fa-github"></i> Github</a>
-        <a href="https://www.instagram.com/j.onliwiw/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
-      </div>
-    </div>
-  </div>
-  <!-- JAVASCRIPT -->
-  <script src="app.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</body>
-
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
 </html>
